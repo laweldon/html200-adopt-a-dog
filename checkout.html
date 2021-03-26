@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Adopt-a-Dog: Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-column">
+        <img src="./images/adoptadog-logo.svg" alt="Logo for Adopt-a-Dog" class="logo">
+        <h2 class="green-text">Seattle’s premiere dog adoption agency</h2>
+      </div>
+      <div class="right-column">
+        <img src="./images/cart-icon.svg" alt="Cart icon">
+        <span class="white-text">Checkout</span>
+        <button type="button" name="checkout-button" class="green-button">Checkout</button>
+      </div>
+    </header>
+    <nav class="white-text">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <span> / </span>
+        <a href="dogs.html">Dogs</a>
+        <span> / </span>
+        <a href="blog.html">Blog</a>
+      </div>
+    </nav>
+    <div class="container">
+      <h3>Checkout</h3>
+      <form class="checkout-form" action="#" method="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="">
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" value="">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" value="">
+        <label for="state">State</label>
+        <select id="state" class="form-dropdown" name="state">
+          <option value="CA">CA</option>
+          <option value="OR">OR</option>
+          <option value="WA">WA</option>
+        </select>
+        <label for="zipcode"></label>
+        <input type="text" name="zipcode" value="">
+        <fieldset>
+          <legend>First Time Adopter?</legend>
+          <input type="radio" id="first-time" name="experience" value="first-time">
+          <label for="first-time">Yes</label>
+          <input type="radio" id="not-first-time" name="experience" value="not-first-time">
+          <label for="not-first-time">No</label>
+        </fieldset>
+        <label for="pickup-location">Pickup Location</label>
+        <select id="pickup-location" class="form-dropdown" name="pickup-location">
+          <option value="woodinville">Woodinville</option>
+          <option value="kirkland">Kirkland</option>
+          <option value="redmond">Redmond</option>
+          <option value="bellevue">Bellevue</option>
+          <option value="mercer">Mercer Island</option>
+          <option value="n-seattle">North Seattle</option>
+          <option value="s-seattle">South Seattle</option>
+        </select>
+        <div class="selected-dogs">
+          <label for="dogs-adopted">Dogs Adopted</label>
+          <div class="dog-list-item">
+            <img src="./images/lucas-card.jpg" alt="Image of a dog named Lucas">
+            <h5>Lucas</h5>
+            <p><b>Cost to Adopt: </b>$123.45</p>
+          </div>
+          <div class="dog-list-item">
+            <img src="./images/duffy-card.jpg" alt="Image of a dog named Duffy">
+            <h5>Duffy</h5>
+            <p><b>Cost to Adopt: </b>$123.45</p>
+          </div>
+        </div>
+        <label for="total-cost">Total Adoption Cost</label>
+        <p>$1234.56</p>
+        <button type="button" name="submit" class="green-button">Submit</button>
+      </form>
+    </div>
+    <footer class="white-text">
+      <img src="./images/adoptadog-logo.svg" alt="Logo for Adopt-A-Dog">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <span> / </span>
+        <a href="dogs.html">Dogs</a>
+        <span> / </span>
+        <a href="blog.html">Blog</a>
+      </div>
+      <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+    </footer>
+  </body>
+</html>

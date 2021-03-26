@@ -1,0 +1,179 @@
+/* Set color variables */
+
+:root {
+  --darkblue: #093C60;
+  --accentgreen: #81B741;
+  --lightgrey: #ECECEC;
+  --darkgrey: #3D3D3D;
+  --white: #FFFFFF;
+  --black: #000000;
+  font-size: 8px;
+}
+
+/* Set default typography */
+
+html {
+  font-family:  Verdana, sans-serif;
+  color: var(--darkgrey);
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+/* Set type ramp */
+
+h1 {
+  font-size: 8rem;
+  line-height: 9rem;
+}
+
+h2 {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+h4 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+footer a, footer span {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.p-larger {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.button-text-small {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.button-text-large {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.nav-text {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+/* Text color overrides - default is darkgrey */
+
+.green-text {
+  color: var(--accentgreen);
+}
+
+.blue-text {
+  color: var(--darkblue);
+}
+
+.white-text {
+  color: var(--white);
+}
+
+.black-text {
+  color: var(--black);
+}
+
+/* Text alignment overrides */
+
+.left-text {
+  text-align: left;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+/* Button styles */
+
+button {
+  padding: 1rem 2rem 1rem 2rem;
+  border: none;
+  margin: none;
+  background-color: white;
+}
+
+button .green-button {
+  background-color: var(--accentgreen);
+}
+
+button .grey-button {
+  background-color: var(--lightgrey);
+}
+
+/* Shared page styles */
+header {
+  background-color: var(--black);
+  background-image: url("./images/header-image.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  padding: 4rem;
+  display: flex;
+}
+
+header .left-column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+  height: 100%
+}
+
+header .right-column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+  height: 100%;
+}
+
+header .right-column img {
+  width: 3rem;
+  display: inline-block;
+}
+
+header .right-column span {
+  display: inline-block;
+}
+
+nav {
+  background-color: var(--lightgrey);
+  padding: 2rem 30rem 2rem 30rem;
+}
+
+.container {
+  padding: 4rem 30rem 4rem 30rem;
+}
+
+footer {
+  background-color: var(--darkblue);
+  padding: 5rem;
+  display: flex;
+  align-content: center;
+}
