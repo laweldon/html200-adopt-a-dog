@@ -15,12 +15,13 @@
       </div>
       <div class="right-column">
         <img src="./images/cart-icon.svg" alt="Cart icon">
-        <span class="white-text">Checkout</span>
-        <button type="button" name="checkout-button" class="green-button">Checkout</button>
+        <span class="white-text">$123.45</span>
+        <div class="break"></div>
+        <button type="button" name="checkout-button" class="green-button button-text-small">Checkout</button>
       </div>
     </header>
     <nav class="white-text">
-      <div class="nav-links">
+      <div class="nav-links nav-text blue-text">
         <a href="index.html">Home</a>
         <span> / </span>
         <a href="dogs.html">Dogs</a>
@@ -37,16 +38,24 @@
         <input type="email" id="email" name="email" value="">
         <label for="address">Address</label>
         <input type="text" id="address" name="address" value="">
-        <label for="city">City</label>
-        <input type="text" id="city" name="city" value="">
-        <label for="state">State</label>
-        <select id="state" class="form-dropdown" name="state">
-          <option value="CA">CA</option>
-          <option value="OR">OR</option>
-          <option value="WA">WA</option>
-        </select>
-        <label for="zipcode"></label>
-        <input type="text" name="zipcode" value="">
+        <div class="input-flex">
+          <div class="col-1">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" value="">
+          </div>
+          <div class="col-2">
+            <label for="state">State</label>
+            <select id="state" class="form-dropdown" name="state">
+              <option value="CA">CA</option>
+              <option value="OR">OR</option>
+              <option value="WA">WA</option>
+            </select>
+          </div>
+          <div class="col-3">
+            <label for="zipcode">Zipcode</label>
+            <input type="text" id="zipcode" name="zipcode" value="">
+          </div>
+        </div>
         <fieldset>
           <legend>First Time Adopter?</legend>
           <input type="radio" id="first-time" name="experience" value="first-time">
